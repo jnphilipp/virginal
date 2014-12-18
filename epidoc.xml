@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Virginal</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<idno type="filename"/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Universitätsbibliothek Heidelberg</repository>
+						<idno>Cod. Pal. germ. 324</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>description of object/monument (likely to include <material/> and <objectType/> information, <dimensions/>, etc.)</support>
+							</supportDesc>
+							<layoutDesc>
+								<layout>description of text field/campus</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote>description of letters, possibly including <height>letter-heights</height></handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Place of origin</origPlace>
+							<origDate>Date of origin</origDate>
+						</origin>
+						<provenance type="found"> Findspot and circumstances/context</provenance>
+						<provenance type="observed">Modern location(s) (if different from repository, above)</provenance>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="photograph of text or monument"/>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="page" n="1">
+					<ab>
+						<lb n="1"/>Das ich uch
+						<lb n="2"/>sage das
+						<lb n="3"/>ich war
+						<lb n="4"/>wuhs em
+						<lb n="5"/>heiden un
+						<lb n="6"/>jar zu Scha
+						<lb n="7" break="no"/>den marnge
+						<lb n="8"/>manne Da
+						<lb n="9"/>der zu smen
+					</ab>
+				</div>
+				<div type="textpart" subtype="page" n="2">
+					<ab>
+						<lb n="1"/>tagen kam
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<p>external apparatus criticus (if applicable)</p>
+			</div>
+			<div type="translation">
+				<p>translation(s)</p>
+			</div>
+			<div type="commentary">
+				<p>commentary</p>
+			</div>
+			<div type="bibliography">
+				<p>bibliography of previous editions, discussion, etc.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
