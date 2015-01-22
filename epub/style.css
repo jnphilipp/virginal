@@ -1,0 +1,11 @@
+@charset utf-8;
+/* Styles for Dietrich und seine Gesellen */
+
+h1 {text-align: center;}
+
+p {margin-left: 5em;}
+
+p:first-letter { font-size: 350%;
+  float:left;
+	line-height: 90%;
+	margin-right: 5px;}
