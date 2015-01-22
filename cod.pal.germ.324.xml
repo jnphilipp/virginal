@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="de">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Virginal</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority/>
+				<idno type="filename"/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Universitätsbibliothek Heidelberg</repository>
+						<idno>Cod. Pal. germ. 324</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>description of object/monument (likely to include <material/> and <objectType/> information, <dimensions/>, etc.)</support>
+							</supportDesc>
+							<layoutDesc>
+								<layout>description of text field/campus</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote>description of letters, possibly including <height>letter-heights</height></handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Place of origin</origPlace>
+							<origDate>Date of origin</origDate>
+						</origin>
+						<provenance type="found"> Findspot and circumstances/context</provenance>
+						<provenance type="observed">Modern location(s) (if different from repository, above)</provenance>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="photograph of text or monument"/>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter" n="1">
+					<ab n="1">
+						<lb n="1"/>Das ich uch
+						<lb n="2"/>sage das
+						<lb n="3"/>ich war Es
+						<lb n="4"/>wuhs em
+						<lb n="5"/>heiden un
+						<lb n="6" break="no"/>sar zu Scha
+						<lb n="7" break="no"/>den mamge
+						<lb n="8"/>manne Da
+						<lb n="9"/>der zu smen
+						<lb n="1"/>tagen kam
+						<lb n="2"/>Der kam er vil ansinf gewan
+						<lb n="3"/>Ders Rest er re von Danne
+						<lb n="4"/>Reim eine gebirgem eine dan
+						<lb n="5"/>Ezbbenben pris und ere
+						<lb n="6"/>Mir Ime rittent afzig man
+						<lb n="7"/>Der was mine norf mere
+						<lb n="8"/>Bu worent alle küne tegen
+						<lb n="9"/>Und fettent liften farnesli an
+						<lb n="10"/>Und do by states suf erwegen
+					</ab>
+					<ab n="2">
+						<lb n="11"/>Er reit gem Dirol al zu hant
+						<lb n="12"/>Er ftiffete röp mort und brant
+						<lb n="13"/>In der künigene lande
+						<lb n="14"/>Er het ir al ir frint benumen
+						<lb n="15"/>Die mere was vor den Berner komen
+						<lb n="16"/>und öch vor Hildebrande
+						<lb n="17"/>Her Hiltebrant mit züchten sprach
+						<lb n="18"/>Hat in die künigine liden
+						<lb n="19"/>wir muiffent dulden ungemach
+						<lb n="20"/>Dar umd in herten sriten
+						<lb n="21"/>vil fnellerliche an dirre stunt
+						<lb n="22"/>min here und ich müffent dar
+						<lb n="23"/>fo wrt uns offentüre kunt
+						<lb n="24"/>Der heiden was vnmoffen ftarck
+						<lb n="1"/>beffer vil wan tufent marck
+						<lb n="2"/>fo was fin harnefch reine
+						<lb n="3"/>fin ros das was vnmoffen gůt
+						<lb n="4"/>Es lieff recht als ein fchibe tůt
+						<lb n="5"/>aber ftock und vber steine
+						<lb n="6"/>So er in die wilde reit
+						<lb n="7"/>Ein harnefch liecht und vefte
+						<lb n="8"/>Morderlichen das er streit
+						<lb n="9"/>Er wolte öch fin der befte
+						<lb n="10"/>Des bracht er manigen man jn not
+						<lb n="11"/>Wer ime do wolte wider ston
+						<lb n="11"/>Den flugt er endeklichen tot
+					</ab>
+					<ab n="3">
+						<lb n="12"/>Der heiden der was hich gemut
+						<lb n="13"/>Er het ein fwert vnmoffen gut
+						<lb n="14"/>Der knopf und das gehewtze
+						<lb n="15"/>Von alfo clorem golde was
+						<lb n="16"/>Luter als em spiegelglas
+						<lb n="17"/>Gliffent ime die velte
+						<lb n="18"/>Sin helm von clarem golde fchin
+						<lb n="19"/>Fo er keit in die wilde
+						<lb n="20"/>Dar an lag manig edelstein
+						<lb n="21"/>Do zu fürt er einen schilt
+						<lb n="22"/>Dar an von rotem golde was
+						<lb n="1"/>Geftrichen manig edel wilt
+					</ab>
+					<ab n="4">
+						<lb n="2"/>Sin brinnige alfo herte was
+						<lb n="3"/>Von claren ftahel als ich las
+						<lb n="4"/>Fu tragen wol in finre not
+						<lb n="5"/>Und obe es alfo keme
+						<lb n="6"/>Obe er in ftrite müfte fin
+						<lb n="7"/>Die ringe worent vefte
+						<lb n="8"/>Recht als fu werent rot guldin
+						<lb n="9"/>Gabent fu ir glefte
+						<lb n="10"/>Wanne der Heidenifche man
+						<lb n="11"/>Finen harenfch an geleite
+						<lb n="12"/>Von ine erluchtet was der tan
+					</ab>
+					<ab n="5">
+						<lb n="13"/>Wan er alfo zuftrite reit
+						<lb n="14"/>fo wol ime stunt fin woffen eleit
+						<lb n="15"/>In ritterlichem prife
+						<lb n="16"/>Er furt ein fter wis vnd reine
+						<lb n="17"/>Das was luter von helffen beine
+						<lb n="18"/>Dar jne in vil füffer wife
+						<lb n="19"/>Ein nachte gal folute fang
+						<lb n="20"/>Wan ers furte an der hende
+						<lb n="21"/>Das in dem walde füffe erlang
+						<lb n="22"/>Und in der fteines wende
+						<lb n="1"/>Ir ftime die gap füffen don
+						<lb n="2"/>Wan fi mit groffen liften was
+						<lb n="3"/>In das fper verwircket fchon
+					</ab>
+				</div>
+				<div type="textpart" subtype="chapter" n="2">
+					<h1>
+						<lb n="4"/>Alfo die frouwn frogeten her Ditriche
+						<lb n="5"/>und offturen
+					</h1>
+					<ab n="6">
+						<lb n="6"/>Jinen des der berner faß
+						<lb n="7"/>By fchonen fröwen do er aß
+						<lb n="8"/>Er wart gefroget sere
+						<lb n="9"/>Von zarten frölben an der stunt
+						<lb n="10"/>Fu sprochent here dunt uns kunt
+						<lb n="11"/>Wissent ir icht from der mere
+						<lb n="12"/>Ift uch icht from der oventure befchehen
+						<lb n="13"/>Die wöllent wir hören gerne
+						<lb n="14"/>Der worheit füllent ir uns veriehen
+						<lb n="15"/>Der edel vöt von berne
+						<lb n="16"/>Is der moffen fere erfchrack
+						<lb n="17"/>Er wufte vmbe offen tire nicht
+						<lb n="18"/>Wie nohe fime hertzen lag
+					</ab>
+					<ab n="7">
+						<lb n="19"/>Der berner wart gar fchame rot
+						<lb n="20"/>Er leit an sime hertzen not
+						<lb n="21"/>Das jme keine ofenture
+						<lb n="22"/>By sinen ziten was bekant
+						<lb n="23"/>Er gedocht an meifter hildebrant
+						<lb n="24"/>Der fol mir geben sture
+						<lb n="25"/>Vrlop er zu den frölben nam
+						<lb n="1"/>Inen des der ferner fas 
+						<lb n="2"/>by schonen fröwen do er as  
+						<lb n="3"/>Er wart gefroger sele
+						<lb n="4"/>Von zarten frösben an der frunt 
+						<lb n="5"/>Su sprorhent here dunt uns kunt
+						<lb n="6"/>Wissent ir icht frömder mere
+						<lb n="7"/>Ist üch üht frömder oventure beschechen 
+						<lb n="8"/>Sie mössent wir hören gerne
+						<lb n="9"/>der worheit füllent ir uns veriehen 
+						<lb n="10"/>der edel vöt von Berne 
+						<lb n="11"/>Vs der mossen sere erfrhrack
+						<lb n="12"/>Er wuste vonbe offen türe nicht 
+						<lb n="13"/>wie nohe fime hertzen lag 
+					</ab>
+					<ab n="8">
+						<lb n="14"/>Der Berner wart gar schome rot
+						<lb n="15"/>er leit an sime hertzen not
+						<lb n="16"/>das Ime keine ofenture
+						<lb n="17"/>by smen sitzen was bekant
+						<lb n="18"/>er gedocht an meister Hilderbrant
+						<lb n="19"/>der sol mir geben stüre
+						<lb n="20"/>Orlop er zu den fröwen nann.
+						<lb n="1"/>Er kunde in nicht gesagen
+						<lb n="2"/> zu Hildebrante er do kam
+						<lb n="3"/>Dem begunde er sere clagen
+						<lb n="4"/>die fröwen hant gefroger sere
+						<lb n="5"/>mich noch Dingen der ich nicht weiß
+						<lb n="6"/>das lit mir an dem herzen schwere
+					</ab>
+					<ab n="9">
+						<lb n="7"/>Der alte meißter Hiltebrantt 
+						<lb n="8"/>wannn den jungten by der hant
+						<lb n="9"/>und vört in am ein ende
+						<lb n="10"/>er sprach vil lieber here miy 
+						<lb n="11"/>wie lange wellent in die Hemme sin
+						<lb n="12"/>Ich sterbe oder ich erwende
+						<lb n="13"/>vil grüweliche grosse clage 
+						<lb n="14"/>die ist im owerme lande
+						<lb n="15"/>vernement was ich üch sage
+						<lb n="16"/>wir hant sin remex schande
+						<lb n="17"/>Das man fuß wüster unser lant
+						<lb n="18"/>wol uff lont uns ritten dar
+						<lb n="19"/>Borwort uns offenture erkant
+					</ab>
+					<ab n="10">
+						<lb n="20"/>Do sprach der ünge Diethterrich
+						<lb n="21"/>her Hildebrant nim vatter mich
+						<lb n="22"/>och his also ziechen
+						<lb n="23"/>Butze das ich wirde ein kreftig man
+						<lb n="24"/>In griffenz ritterlichen an
+						<lb n="25"/>Ich emwil kein stimmen flichen
+						<lb n="1"/>Wir wollent zu der kunigin
+						<lb n="2"/>Und mit den beiden friden
+						<lb n="3"/>des süllent wir wol sicher sin
+						<lb n="4"/>wir müssent durch süliden
+						<lb n="5"/>Arbeit die gor uns do im hant
+						<lb n="6"/>Wol off uns lon uns zu im dar
+						<lb n="7"/>wir sullent frigen ir das lamt
+					</ab>
+					<ab n="11">
+						<lb n="8"/>Her Hiltebrant do mich en bye
+						<lb n="9"/>mit sinen heren er do gie
+						<lb n="10"/>in emen palast riche
+						<lb n="11"/>den er vil schone gezieret vant
+						<lb n="12"/>Do Sprach der alte Hiltebrant
+						<lb n="13"/>yu hern Dietcheriche
+						<lb n="14"/>wem entpfeslhent ir uwer lant
+						<lb n="15"/>die sast und öch die veste
+						<lb n="16"/>er sprach getruwer Hildebrandt
+						<lb n="17"/>Dim rat was ie der beste
+						<lb n="18"/>rot wie dich sesbe dumcke gut
+						<lb n="19"/>Do sprach der alte Hildebrandt
+						<lb n="20"/>Here so habent hohen nut
+					</ab>
+					<ab n="12">
+						<lb n="21"/>Do stüfft der alte Hildebrant
+						<lb n="22"/>das vil schirre wart befant
+						<lb n="23"/>ein Bürger erren riche
+						<lb n="24"/>der was geboren von meigefon
+						<lb n="1"/>Und was von art ein edelmann
+						<lb n="2"/>Das wissent sicherliche
+						<lb n="3"/>Er kam do er su beide vant
+						<lb n="4"/>Do brach der eren eine kerne
+						<lb n="5"/>Uch su entfolhen an uwer hant
+						<lb n="6"/>Die gute stat zu Berne
+						<lb n="7"/>Dar zu die BÜrg und öch das lant
+						<lb n="8"/>Das ir in mit truwe  wesent by
+						<lb n="9"/>here des su my truwe ülber tfomt
+					</ab>
+					<ab n="13">
+						<lb n="10"/>Er hiltebrant bereite sich
+						<lb n="11"/>Und öch sin here her dietherich
+						<lb n="12"/>In stahel ringe veste
+						<lb n="13"/>Bo lichte woffen cleider an
+						<lb n="14"/>Lichtent dise zwene man
+						<lb n="15"/>Gegen der sunen gleste
+						<lb n="16"/>Gat ir harnesch lichten schin
+						<lb n="17"/>Erstrach züm Bernere
+						<lb n="18"/>Gertze lieber here myn
+						<lb n="19"/>Lont uch nicht wesen leit und swere
+						<lb n="20"/>Uch got im aventure in hant
+						<lb n="21"/>Vil snellechich an dire vart
+						<lb n="22"/>Von dannan schiedent su zu hant
+					</ab>
+				</div>
+				<div type="textpart" subtype="chapter" n="3">
+					<h1>
+						<lb n="1"/>Als her dieterich und her hildebrant von
+						<lb n="2"/>verne stident und von bingern die star
+						<lb n="3"/>benelhent
+					</h1>
+					<ab n="14">
+						<lb n="1"/>Er reit vs Berne also man es seu
+						<lb n="2"/>Durch sines libes tegenheit
+						<lb n="3"/>her dietherich von Berne
+						<lb n="4"/>Mit Ime sin meister hiltebrant
+						<lb n="5"/>Der sich noch nie von ime gewant
+						<lb n="6"/>Das mogent ir hören gerne
+						<lb n="7"/>Er pflag sin schon zu aller zire
+						<lb n="8"/>Er künde ime wol geraten
+						<lb n="9"/>Dürch in so vöcht er manigen strit
+						<lb n="10"/>Als ie die Besten doten
+						<lb n="11"/>An sime rate ime wol gelang
+						<lb n="12"/>Durch in so slüg er manigen dot
+						<lb n="13"/>Und vil der landes heren rwang
+						<lb n="14"/>Eins morgens frü das geschach
+						<lb n="15"/>Das man su vs Berne ritten sach
+						<lb n="16"/>Do stach em Burgere
+						<lb n="17"/>Sagent an here w owellent ir hin
+						<lb n="18"/>Oder war stat uch der sin
+						<lb n="19"/>Bescheident mich der mere
+						<lb n="20"/>Ir sint verwoffent vir den dot
+						<lb n="21"/>Mit stahel und öch mit isen
+						<lb n="22"/>Wellent ir in kemere slachte not
+						<lb n="23"/>Das sullent ir mich bewifen
+						<lb n="24"/>Oder hant irs einig an genome
+					</ab>
+					<ab n="15">
+						<lb n="1"/>Bo losse uch got gelingen wol
+						<lb n="2"/>Und schir gesunt her wider komen
+						<lb n="3"/>Der tut uch minerre helffe icht not
+						<lb n="4"/>Mit uch so var ich in den tot
+						<lb n="5"/>Vil edeler Bernere
+						<lb n="6"/>Ich han noch eine brumuge starch
+						<lb n="7"/>Die kost virdehalt hündert marth
+						<lb n="8"/>Die ringe die sint swere
+						<lb n="9"/>Do by so lit em helm vil gut
+						<lb n="10"/>Min swert das gir mir hohen mut
+						<lb n="11"/>Das ist lüter und reme
+						<lb n="12"/>Ir furent mit uch vff den plon
+						<lb n="13"/>Ilhtzen hundert ritter gut
+						<lb n="14"/>Die mussent min do schaden han
+					</ab>
+					<ab n="16">
+						<lb n="15"/>Aber strach der Bürger unverzagt
+						<lb n="16"/>Mit ist vil von uch gesaget
+						<lb n="17"/>Und von meister hiltebrant
+						<lb n="18"/>Wie das ir ie die Besten sind
+						<lb n="19"/>Ir slahent diffe wir den mit
+						<lb n="20"/>Vil gar on alle schande
+						<lb n="21"/>By den so were ich rechte wol
+						<lb n="22"/>Vil edeler Bernere
+						<lb n="23"/>Und ist es das ich bliben sol
+						<lb n="24"/>das ist umis hertzen swere
+						<lb n="1"/>Und sol ich dise reife lon
+						<lb n="2"/>Irem brut herre min her dietherich
+						<lb n="3"/>Ir furent mich mit uch uff den plon
+					</ab>
+					<ab n="17">
+						<lb n="4"/>Des antwort Ime her Hiltebrant
+						<lb n="5"/>er spach wir wollent beide sat
+						<lb n="6"/>Durch ofen türe ritten
+						<lb n="7"/>Min here ist lange hie gelegen
+						<lb n="8"/>Und hat gemaches vil gepflegen
+						<lb n="9"/>Er muß mit wirmen struten
+						<lb n="10"/>Es zimt nit landes heren wol
+						<lb n="11"/>Die clage in irme lande
+						<lb n="12"/>Wen er by fröwen ein schande
+						<lb n="13"/>Das er in des nicht kan verlegen
+						<lb n="14"/>Das ime by allen sinen ragen
+						<lb n="15"/>Je kin oventure by geschehen
+					</ab>
+					<ab n="18">
+						<lb n="16"/>Die rechte stroffe su vermiten
+						<lb n="17"/>Und ilren gem dem walde
+						<lb n="18"/>Und gegen ein gebirge hoch
+						<lb n="19"/>Dar trabten su vil balde
+						<lb n="20"/>her Hiltebrant hat e vernome
+						<lb n="21"/>Ein wildes walt gevelle
+						<lb n="1"/>Dar wolt er und sin here komen
+						<lb n="2"/>Wer es im hören wolle
+						<lb n="3"/>Dem sit die eventure das
+						<lb n="4"/>Das der walt gewirme vol was
+						<lb n="5"/>Und vil der heren das ime was
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<p>external apparatus criticus (if applicable)</p>
+			</div>
+			<div type="translation">
+				<p>translation(s)</p>
+			</div>
+			<div type="commentary">
+				<p>commentary</p>
+			</div>
+			<div type="bibliography">
+				<p>bibliography of previous editions, discussion, etc.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
