@@ -1,0 +1,69 @@
+\documentclass[a4paper, 12pt, oneside]{scrbook}
+\usepackage[a4paper, left=3cm, right=3cm, top=4cm, bottom=5cm]{geometry}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{german}
+\usepackage{xltxtra}
+\usepackage{mypackage}
+\usepackage{datetime}
+
+\lstset{breaklines=true}
+\captionsetup{width=0.8\textwidth}
+\counterwithout{footnote}{chapter}
+
+\usepackage{hyperref}
+\hypersetup{unicode=true, hidelinks, german}
+\usepackage[all]{hypcap}
+
+\author{Nathanael Philipp, Paul Röwer, Assen Tarlov}
+\title{Projektbericht}
+\subtitle{Methoden für digitale Textkritik und kollaborative Editionsverfahren}
+\date{Februar 2015}
+
+\usepackage[backend=bibtex8,style=numeric,subentry]{biblatex}
+\usepackage[babel]{csquotes}
+\defbibheading{bibliography}{\chapter{Literaturverzeichnis}}
+\bibliography{quellen}
+
+\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\subscript}[1]{\ensuremath{_{\textrm{#1}}}}
+\renewcommand{\th}[0]{\superscript{th}}
+\newcommand{\st}[0]{\superscript{st}}
+\newcommand{\nd}[0]{\superscript{nd}}
+\newcommand{\rd}[0]{\superscript{rd}}
+
+\begin{document}
+\maketitle\newpage
+\tableofcontents\newpage
+\chapter{Einleitung}
+TODO Assen
+
+\chapter{Textanalyse}
+TODO Paul
+\section{Geschichtliche Einordnung}
+TODO Paul
+\section{Reimform/Schriftbild}
+TODO Paul
+
+\chapter{Projektarbeit}
+TODO Nathanael
+\section{Ablaufplan}
+TODO Nathanael
+
+\section{Transkription}
+\subsection{Nathanael Philipp}
+TODO Nathanael
+\subsection{Paul Röwer}
+TODO Paul
+\subsection{Assen Tarlov}
+TODO Assen
+\section{Tools}
+TODO Nathanael
+\section{Produkt}
+TODO Nathanael
+
+\chapter{Fazit}
+TODO Assen
+
+\printbibliography
+\end{document}
