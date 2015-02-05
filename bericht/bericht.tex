@@ -6,9 +6,13 @@
 \usepackage{xltxtra}
 \usepackage{datetime}
 
-\lstset{breaklines=true}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage{caption}
 \captionsetup{width=0.8\textwidth}
+\usepackage{chngcntr}
 \counterwithout{footnote}{chapter}
+\usepackage{wrapfig}
 
 \usepackage{hyperref}
 \hypersetup{unicode=true, hidelinks, german}
@@ -38,44 +42,57 @@
 TODO Assen
 
 \chapter{Texteinordnung}
-Der Cod. Pal. germ. 324 ist unter den Titeln "Dietrich und seine Gesellen", "Dietrichs Drachenkämpfe", "Dietrichs erste Ausfahrt" und in der Forschung als "Virginal bekannt. Dieser ist der älteste von drei vollständigen überlieferten Manuskripten (Linhart Scheubels Heldenbuch, Cod. 5478, Dresdner Heldenbuch, Mscr. M 201). Gefertigt wurde der Cod. Pal. germ. 324 um 1440 in der Werkstatt des Diebold Lauber. Die Virginal besitzt 1097 Strophen im Bernerton und 46 kolorierte Federzeichnungen.TODO(Vergleich http://digi.ub.uni-heidelberg.de/de/bpd/glanzlichter/oberdeutsche/lauber/cpg324.html)
+Der Cod. Pal. germ. 324 ist unter den Titeln "Dietrich und seine Gesellen", "Dietrichs Drachenkämpfe", "Dietrichs erste Ausfahrt" und in der Forschung als "Virginal bekannt. Dieser ist der älteste von drei vollständigen überlieferten Manuskripten (Linhart Scheubels Heldenbuch, Cod. 5478, Dresdner Heldenbuch, Mscr. M 201). Gefertigt wurde der Cod. Pal. germ. 324 um 1440 in der Werkstatt des Diebold Lauber. Die Virginal besitzt 1097 Strophen im Bernerton und 46 kolorierte Federzeichnungen.\cite{ubheidelber_bibpal}
 
 \section{Schrift}
-An der Handschrift waren drei unterschiedliche Schreiber beteiligt. Die folgende Aufteilung wurde dabei vorgenommen: Vom Anfang des Werkes bis zur Vorderseite des Blattes 95 Zeile 6, von dort an bis zu Vorderseite des Blattes 103, wo der letzte Abschnitt beginnt. Die Schreiber sind bis auf den letzten unbekannt, dieser war Johannes Port, ein Straßburger Lohnschreiber. Diese Information entnahm man dem Explicit auf der Rückseite des Blattes 352 im Virginal, hier in Grafik 1 abgebildet.
-TODO Einbindung Grafik 1 (http://digi.ub.uni-heidelberg.de/diglit/cpg324/0722)
-Wer die Abschrift in Auftrag gab ist auch ungeklärt, die Illustrationen von mehreren Wappen auf der Vorderseite des Blattes 251 ließen sich nicht eindeutig zuordnen, siehe Grafik 2.
-TODO Einbindung Grafik 2 (http://digi.ub.uni-heidelberg.de/diglit/cpg324/0519)
-TODO(Vergleich http://digi.ub.uni-heidelberg.de/de/bpd/glanzlichter/oberdeutsche/lauber/cpg324.html)
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\vspace{-40pt}
+	\centering
+	\includegraphics[width=0.4\textwidth]{0722.jpg}
+	\caption{Rückseite Blatt 352\cite{virginal352v}}
+	\label{fig:1}
+\end{wrapfigure}
+
+An der Handschrift waren drei unterschiedliche Schreiber beteiligt. Die folgende Aufteilung wurde dabei vorgenommen: Vom Anfang des Werkes bis zur Vorderseite des Blattes 95 Zeile 6, von dort an bis zu Vorderseite des Blattes 103, wo der letzte Abschnitt beginnt. Die Schreiber sind bis auf den letzten unbekannt, dieser war Johannes Port, ein Straßburger Lohnschreiber. Diese Information entnahm man dem Explicit auf der Rückseite des Blattes 352 im Virginal, hier in Grafik \ref{fig:1} abgebildet.
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\centering
+	\includegraphics[width=0.4\textwidth]{0519.jpg}
+	\caption{Vorderseite Blatt 251\cite{virginal251r}}
+	\label{fig:2}
+\end{wrapfigure}
+
+Wer die Abschrift in Auftrag gab ist auch ungeklärt, die Illustrationen von mehreren Wappen auf der Vorderseite des Blattes 251 ließen sich nicht eindeutig zuordnen, siehe Grafik \ref*{fig:2}.\cite{ubheidelber_bibpal}
+\newpage
 
 \section{Dichtform}
-Das ganze Werk ist wie bereits erwähnt im Bernerton verfasst. Entstanden ist diese im 13. Jahrhundert im schwäbisch-alemannischen Raum und wurde nach der Heldenfigur "Dietrich von Bern" benannt. Die mittelalterliche Heldendichtung des Virginals unterliegt so einer festen Strophenform und Melodie. Eine Strophe hat 13 Verse in folgender metrischer Form: 4ma 4ma 3wb 4mc 4mc 3wb 4md 3we 4md 3we 4mf 3wx 3mf. Das bedeutet, "der erste Vers ist ein Vierheber mit männlicher Kadenz (4m), der dritte Vers ist ein Dreiheber mit weiblicher Kadenz (3w) und das Reimschema (der jeweils dritte Buchstabe) ist aab ccb dede fxf."TODO(Zitat http://de.wikipedia.org/wiki/Bernerton) Als Beispiel dient eine Stelle aus dem Cod. Pal. germ. 324:
+Das ganze Werk ist wie bereits erwähnt im Bernerton verfasst. Entstanden ist diese im 13. Jahrhundert im schwäbisch-alemannischen Raum und wurde nach der Heldenfigur "Dietrich von Bern" benannt. Die mittelalterliche Heldendichtung des Virginals unterliegt so einer festen Strophenform und Melodie. Eine Strophe hat 13 Verse in folgender metrischer Form: 4ma 4ma 3wb 4mc 4mc 3wb 4md 3we 4md 3we 4mf 3wx 3mf. Das bedeutet, "der erste Vers ist ein Vierheber mit männlicher Kadenz (4m), der dritte Vers ist ein Dreiheber mit weiblicher Kadenz (3w) und das Reimschema (der jeweils dritte Buchstabe) ist aab ccb dede fxf."\cite{wiki_bernerton} Als Beispiel dient eine Stelle aus dem Cod. Pal. germ. 324:\\
 
-Der Berner wart gar schame \textcolor{red}{rot,}			a
-er leit an sime hertzen \textcolor{red}{not,}				a
-das jme keine \textcolor{blue}{ofenture}					b
-By sinen ziten was \textcolor{yellow}{bekant,}				c
-er gedocht' an meister \textcolor{yellow}{Hiltebrant:}		c
-"der sol mir geben \textcolor{blue}{sture."}				b
-Vrlop er zu den frowen \textcolor{green}{nam,}				d
-er in nicht gesagen \textcolor{pink}{kunde,}				e
-zu Hiltebrante er do \textcolor{green}{kam,}				d
-dem er sere clagen \textcolor{pink}{begunde:}				e
-"die frowen hant gefraget \textcolor{orange}{sere}			f
-mich noch dingen, der ich nicht weis;						x
-das lit mir an dem hertzen \textcolor{orange}{swere."}		f
-TODO(Quelle http://digi.ub.uni-heidelberg.de/diglit/vdHagen1855B2/0006?sid=426cdc3583ca2026cfd286eee0c0e25b)
+\begin{tabular}{lr}
+Der Berner wart gar schame \textcolor{red}{rot}, & a \\
+er leit an sime hertzen \textcolor{red}{not}, & a \\
+das jme keine \textcolor{blue}{ofenture} & b \\
+By sinen ziten was \textcolor{yellow}{bekant}, & c \\
+er gedocht' an meister \textcolor{yellow}{Hiltebrant}: & c \\
+"der sol mir geben \textcolor{blue}{sture}." & b \\
+Vrlop er zu den frowen \textcolor{green}{nam}, & d \\
+er in nicht gesagen \textcolor{pink}{kunde}, & e \\
+zu Hiltebrante er do \textcolor{green}{kam}, & d \\
+dem er sere clagen \textcolor{pink}{begunde}: & e \\
+"die frowen hant gefraget \textcolor{orange}{sere} & f \\
+mich noch dingen, der ich nicht weis; & x \\
+das lit mir an dem hertzen \textcolor{orange}{swere}." & f \\
+\end{tabular}\cite{ubh_bernerton}\\
 
-Der Berner war rot vor Scham, er litt Herzensnot. Das keine (Frau) bei ihm sitze war offenbar bekannt. Er wandte sich an Meister Hildebrant: "Der soll mir eine Hure geben!" Er nahm sich frei um zu den Frauen zu gehen. In nicht genannter Kunde ging er dann zu Hildebrant, dem er seine Klagen bekundete: "Die Frauen haben mich sehr nach Dingen gefragt, die ich nicht weiß. Das litt mir schwer am Herzen."
-(Vergleich http://de.wikipedia.org/wiki/Bernerton)
+Der Berner war rot vor Scham, er litt Herzensnot. Das keine (Frau) bei ihm sitze war offenbar bekannt. Er wandte sich an Meister Hildebrant: "Der soll mir eine Hure geben!" Er nahm sich frei um zu den Frauen zu gehen. In nicht genannter Kunde ging er dann zu Hildebrant, dem er seine Klagen bekundete: "Die Frauen haben mich sehr nach Dingen gefragt, die ich nicht weiß. Das litt mir schwer am Herzen."\cite{wiki_bernerton}
 
 \section{Illustrationen}
-Die Federzeichnungen sind in der Werkstatt Diebold Laubers von Zeichnergruppen gefertigt worden. Sie spiegeln das höfische Leben mit seinen Sitten und Gebräuchen wieder. Es werden Kampf-, Dialog- sowie Abreiseszenen dargestellt.
-TODO(Vergleich http://digi.ub.uni-heidelberg.de/de/bpd/glanzlichter/oberdeutsche/lauber/cpg324.html)
+Die Federzeichnungen sind in der Werkstatt Diebold Laubers von Zeichnergruppen gefertigt worden. Sie spiegeln das höfische Leben mit seinen Sitten und Gebräuchen wieder. Es werden Kampf-, Dialog- sowie Abreiseszenen dargestellt.\cite{ubheidelber_bibpal}
 
 \section{Inhaltliche Einordnung}
 Die Virtigal gehört zu Dietrichepik, in der Heldenepik zieht der junge Dietrich von Bern mit seinem Waffenmeister Hildebrand zu Abenteuern aus. 
 
-"Im Heidelberger Virginal (Cpg 324; Papierhandschrift, um 1440, 1097 Strophen) ziehen Hildebrand und Dietrich ins Waldgebirge von Tirol, um gegen den Heiden Orkise zu kämpfen, der in das Land der Königin Virginal eingefallen ist. Hildebrand findet ein Mädchen aus Virginals Gefolge, das zum Tribut für Orkise bestimmt ist. Er besiegt Orkise. Dietrich ist inzwischen in Kampf mit einer ganzen Schar von Heiden verwickelt. Hildebrand hilft ihm, sie zu besiegen. Das Mädchen lädt die beiden nach Königin Virginals Residenz Jeraspunt ein. Sie geht voraus, Virginal schickt ihnen den Zwerg Bibung entgegen. Dietrich und Hildebrand sind aber in einen Kampf gegen Drachen geraten. Einer davon hat einen Ritter im Maul. Hildebrand kann den Drachen töten, der Ritter ist Rentwin, Sohn des Helferich und ein Großneffe Hildebrands. Hildebrand und Dietrich gehen nach Arona, der Residenz von Rentwins Eltern Helferich. Dort findet sie Bibung und überbringt Virginals Einladung. 14 Tage später brechen Hildebrand und Dietrich mit Helferich und Gefolge auf. Dietrich reitet voraus, verirrt sich, gelangt zur Burg Muter. Der Riese Wicram, mit anderen Riesen im Dienste von Nitger, dem Burgherrn von Muter, überwältigt ihn und bringt ihn zu Nitger, der ihn gefangen setzt. Doch kümmert sich Nitgers Schwester Ibelin um Dietrich. Sie sendet eine Nachricht nach Jeraspunt. Daraufhin holt man Dietrichs Gefolgsleute aus Bern, den König Iman von Ungarn und Biterolf und Dietleib zu Hilfe. Nach Sammlung in Jeraspunt ziehen sie nach Muter. In elf Zweikämpfen werden alle Riesen erschlagen. Nitger muss sein Land von Dietrich zu Lehen nehmen. Auf dem Weg nach Jeraspunt kommt es wieder zu elf Einzelkämpfen mit Riesen und wieder zu Drachenkämpfen. Angekommen gibt es ein großes Fest. Auf eine Nachricht von einer drohenden Belagerung Berns hin kehren Dietrich und seine Gesellen nach Hause zurück." TODO(Zitat http://de.wikipedia.org/wiki/Virginal_%28Dietrichepik%29)
+"Im Heidelberger Virginal (Cpg 324; Papierhandschrift, um 1440, 1097 Strophen) ziehen Hildebrand und Dietrich ins Waldgebirge von Tirol, um gegen den Heiden Orkise zu kämpfen, der in das Land der Königin Virginal eingefallen ist. Hildebrand findet ein Mädchen aus Virginals Gefolge, das zum Tribut für Orkise bestimmt ist. Er besiegt Orkise. Dietrich ist inzwischen in Kampf mit einer ganzen Schar von Heiden verwickelt. Hildebrand hilft ihm, sie zu besiegen. Das Mädchen lädt die beiden nach Königin Virginals Residenz Jeraspunt ein. Sie geht voraus, Virginal schickt ihnen den Zwerg Bibung entgegen. Dietrich und Hildebrand sind aber in einen Kampf gegen Drachen geraten. Einer davon hat einen Ritter im Maul. Hildebrand kann den Drachen töten, der Ritter ist Rentwin, Sohn des Helferich und ein Großneffe Hildebrands. Hildebrand und Dietrich gehen nach Arona, der Residenz von Rentwins Eltern Helferich. Dort findet sie Bibung und überbringt Virginals Einladung. 14 Tage später brechen Hildebrand und Dietrich mit Helferich und Gefolge auf. Dietrich reitet voraus, verirrt sich, gelangt zur Burg Muter. Der Riese Wicram, mit anderen Riesen im Dienste von Nitger, dem Burgherrn von Muter, überwältigt ihn und bringt ihn zu Nitger, der ihn gefangen setzt. Doch kümmert sich Nitgers Schwester Ibelin um Dietrich. Sie sendet eine Nachricht nach Jeraspunt. Daraufhin holt man Dietrichs Gefolgsleute aus Bern, den König Iman von Ungarn und Biterolf und Dietleib zu Hilfe. Nach Sammlung in Jeraspunt ziehen sie nach Muter. In elf Zweikämpfen werden alle Riesen erschlagen. Nitger muss sein Land von Dietrich zu Lehen nehmen. Auf dem Weg nach Jeraspunt kommt es wieder zu elf Einzelkämpfen mit Riesen und wieder zu Drachenkämpfen. Angekommen gibt es ein großes Fest. Auf eine Nachricht von einer drohenden Belagerung Berns hin kehren Dietrich und seine Gesellen nach Hause zurück."\cite{wiki_virginal}
 
 \chapter{Projektarbeit}
 TODO Nathanael
