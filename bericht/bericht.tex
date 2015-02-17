@@ -39,7 +39,12 @@
 \maketitle\newpage
 \tableofcontents\newpage
 \chapter{Einleitung}
-TODO Assen
+
+Das vorliegende Projekt beschäftigt sich mit dem Thema der digitalen Textkritik und der kollaborativen Editionsverfahren. 
+Ziel der digitalen Textkritik ist eine hypothetische Rekonstruktion des ursprüngliches Textes in digitaler Form zu konstruiren. Der vollständige Rekonstruktionen des Textes lässt sich von der Zusammenarbeit der verschiedenen Abschreiber bilden. Jeder Abschreiber bildet eine eigene Edition, die sich von den anderen unterscheiden kann. Die Ursache der Abweichung kann die Freiheit für eine Verbesserung des Textes sein, sowie auch Fehler beim Lesen oder die Unwissenheit über die Sprache, von der den originalen Text stammt.  
+
+In unserem Projekt hadelt sich um einen Manuskript um das 1440 Jahr und drei Editoren. Die erstellte digitale Edition ist in dem EPUB Format, von dem die zwei verschiedene Versionen - mit und ohne Bilder zur Verfügung stammen. 
+
 
 \chapter{Texteinordnung}
 Der Cod. Pal. germ. 324 ist unter den Titeln "Dietrich und seine Gesellen", "Dietrichs Drachenkämpfe", "Dietrichs erste Ausfahrt" und in der Forschung als "Virginal bekannt. Dieser ist der älteste von drei vollständigen überlieferten Manuskripten (Linhart Scheubels Heldenbuch, Cod. 5478, Dresdner Heldenbuch, Mscr. M 201). Gefertigt wurde der Cod. Pal. germ. 324 um 1440 in der Werkstatt des Diebold Lauber. Die Virginal besitzt 1097 Strophen im Bernerton und 46 kolorierte Federzeichnungen.\cite{ubheidelber_bibpal}
@@ -110,7 +115,9 @@ Nach ersten Schwierigkeiten den Text zu lesen und zu entziffern habe ich nach vo
 Das Transkriptionsprojekt hat mir als Informatiker gezeigt, wie umfangreich die Aufarbeitung alter Textüberliefungen ist. Durch diese kann man viel historisch relevantes Wissen ziehen, wie über den geschichtlichen Verlauf der Welt oder auch literarische Ausdrucksformen. Des Weiteren ist es wichtig bereits gegenwärtige oder neue Technologien  zu-oder weiterzuentwickeln um die Arbeit in diesem Bereich zu unterstützen. Beispielsweise ist das "Optical Character Recognition" weiter auf Handschriften zu trainieren oder eine Verfahren, welches bei der Erstellung von Prosaformen aus alten Dichtungen generiert, zu erfinden.
 
 \subsection{Assen Tarlov}
-TODO Assen
+
+Die Transkriptionarbeit war am Anfang schwierig, weil man nicht mit der Schrift gewöhnt ist. Die erste Zeile habe ich mit Hilfe der Abschrift von Friedrich Heinrich transkibiert, was mir geholfen hat, sich an die Schrift zu orientieren. Die Frage ist, ob es möglich wäre ein "OCR" zu entwickeln, die den Text automatisch transkribiert. Die Aufgabe wäre nicht leicht, da der Text nicht die perfekte Qualität hat und die Machine muss ein explizites Wissen über die Sprache in dieser Periode lernen.
+
 \section{Tools und Formate}
 Die einzenlen Abschriften haben wir im EpiDoc-Format gemacht. Dabei handelt es sich um ein XML-Format das ein strukturiertes Markup von epigraphischen Dokumenten in TEI-XML definiert.
 
@@ -123,7 +130,23 @@ Mit Juxta\cite{juxta} haben wir den kritischen Apparat zwischen unserer Abschrif
 Wir haben uns entschieden zwei verschiedene EPUB Versionen zu erstellen. In der ersten ist neben unserer Abschrift zu jedem Absatz unserer Abschrift das Digitalisat mit eingebunden. Durch die vielen Bilder ist diese Version allerdings sehr groß geworden und wir haben deshalb die zweite Version erstellt, die die Digitalisate nicht enthält.
 
 \chapter{Fazit}
-TODO Assen
+
+Dieses Projekt hat uns gezeigt, wie schwierig und umfangreich textkritik-und editieren seien können. Das Projekt haben wir in drei Phasen eingeteilt und zu der jeden Phase waren wir mit verschiedenen Problemen begegnet. 
+
+Das Problem bei der ersten Phase war hauptsächlich das Lesen von dem Text. Diese Fehler kann man in dem kritischen Apparat gesehen werden - ein typischer Fehler ist "s" mit "f" und umgekehrt zu verwächseln, sowie "u" mit "v". Die Abschrift von Friedrich Heinrich war ein hilfreiches Mittel sich an die originale Schrift zu orientieren und die Fehler zu minimieren.
+
+Die zweite Phase ist das Erstellen von dem EpiDoc und anschließend EPUB. Das EpiDoc Format ist nicht mit dem EPUB kompatibel und ein Python-Script war nötig, um das Problem zu beheben. 
+
+Bei der dritten Phase handelt sich um das Erstellen von den fertigen EPUB-Versionen mit Hilfe des Calibre-Programs. Der Text haben wir zentriert. Bilder von der Manuscript haben wir mit dem GIMP-Programm zu jedem Absatz geordnet und eingefügt. Die Zeile des Absatzes waren nicht immer auf einer Seite, was eine Einordnung der Bilder nötigte. 
+
+Probleme, die in der Zukunft noch zu beheben könnten, sind Named-Entities. Named-Entities sind solche Elemente in dem Text, die klassifierzt werden können - z.B Namen von Personen, Organisationen, Orten. Diese Namen können extrahiert und in einer Liste gespeichert werden. Anhand von dieser Liste können Fehler, aufgrund von falsch geschriebenen Namen korrigiert werden. 
+
+
+Was kann man mit der Edition noch machen ? 
+
+Eine Möglichkeit wäre die Abschrift ins Hochdeutsche zu übersetzen. Das Übersetzen wird der Text verständlicher und zu mehreren Leute attraktiver machen. 
+Querverweise können z.B. automatisch gefunden und eingefügt werden. Eine morphologische Syntax oder finden von alten Wörtern bzw. die Entwicklung der Bedeutung mit der Zeit wären andere Ideen mit den man sich mit dieser Edition beschäftigen kann. 
+ 
 
 \printbibliography
 \end{document}
